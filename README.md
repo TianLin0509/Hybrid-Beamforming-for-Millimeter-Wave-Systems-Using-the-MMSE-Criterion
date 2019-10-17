@@ -2,12 +2,26 @@
 
 ## Introduction
 The Matlab Simulation codes for Hybrid Beamforming for Millimeter Wave Systems Using the MMSE Criterion.
-This paper is published in IEEE transactions on communications in Jan 2019.
-If these codes is help for your work, you can choose to cite the paper, but is not necessary.
+This paper on published in IEEE transactions on communications in Jan 2019.
+If these codes is help for your work, you can choose to cite the paper,  not necessary.
 
-Actually this is a simplified version of the original codes, which can be referred to my another repository named "August_mmwave", however, the later is written in a bad form so not easy to read.
+The pdf of this paper can be found in
 
-I only update the codes for narrowband cases, but the extension to broadband is straightforward, however, I don't have enough time now, so maybe it will be updated in the future.
+IEEE link: [https://ieeexplore.ieee.org/document/8616797](https://ieeexplore.ieee.org/document/8616797)
+
+Arxiv link: [https://arxiv.org/abs/1902.08343?context=cs.IT](https://arxiv.org/abs/1902.08343?context=cs.IT).
+
+Also, I recommend my rencent work that using deep learning to solve the HBF design problem. This work can be referred to 
+
+IEEE link: [https://ieeexplore.ieee.org/document/8847377/](https://ieeexplore.ieee.org/document/8847377/)
+
+Arxiv link: [https://arxiv.org/abs/1904.03657](https://arxiv.org/abs/1904.03657)
+
+and all codes are openned at [this repo](https://github.com/TianLin0509/BF-design-with-DL).
+
+
+
+I only update the codes for narrowband cases, but the extension to broadband is straightforward. which can be referred to my another repository named "August_mmwave", [gateway](https://github.com/TianLin0509/August_mmwave). however, the later is written in a bad form so not easy to read. I don't have enough time now, so maybe it will be updated in the future.
 
 ## How to use
 This code is really is to use. First, you should totally add all packages to the path, so you can use these functions. Then, just run the ```main_vs_SNR.m``` file directly. 
