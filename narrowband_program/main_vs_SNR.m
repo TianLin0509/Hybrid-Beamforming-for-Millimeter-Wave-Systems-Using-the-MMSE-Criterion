@@ -19,7 +19,7 @@ Nsym = 64;  %the number of symbols in one block
 
 
 global N_loop;
-N_loop = 5;   %iteration number
+N_loop = 500;   %iteration number
 
 global Vn H Codebook_v Codebook_w n; %Vn £º Noise_power
 %Codebook : the required codebook for OMP method

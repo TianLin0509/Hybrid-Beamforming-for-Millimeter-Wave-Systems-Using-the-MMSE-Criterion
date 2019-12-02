@@ -5,8 +5,8 @@ function [H,AT,AR] = channel_generation(N_t,N_r)
 %the comments is originally written in Chinese, hopefully I can have time
 % to tranfer it to English, but not now.
 
-N_c=1;
-N_ray=3;
+N_c=5;
+N_ray=10;
 E_aoa = 2*pi* rand(N_c,1);                               %cluster的均值，服从（0,2*pi）的均匀分布
 sigma_aoa = 10*pi/180;                                    %角度扩展为10°，化为弧度，即标准差
 b = sigma_aoa/sqrt(2);                                    %根据标准差求相应的b，尺度参数
